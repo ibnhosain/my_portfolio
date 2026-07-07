@@ -11,7 +11,9 @@
 a {
  text-decoration: none;
 }
-
+ img{
+  max-width: 100%;
+ }
 .container {
  max-width: 1240px;
  margin: 0 auto;
@@ -106,18 +108,63 @@ nav .logo {
  font-size: 20px;
  color: #757575;
  margin-bottom: 30px;
+ width: 620px;
 }
 
 .hero_left_button {
  display: flex;
  gap: 20px;
 }
-.hero_left{
- position: relative;
-}
 .hero_left .left_wattermark {
 position: absolute;
-left: 0;
-bottom: 0;
-transform: ;
+left: -60%;
+top:-30%;
+z-index: 2;
+transform: rotate(-90deg);
+font-size: 80px;
+font-weight: 900;
+width:100%;
+color:#18181820 ;
+}
+.hero_left {
+ position: relative;
+}
+
+.hero_right{
+ background-image: url(./images/header_bg.png);
+}
+
+/* About me section Styling */
+
+.about_me_section{
+ margin: 80px 0;
+}
+.about_me_inner{
+ padding: 100px;
+  background-color: #FFF8F3;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_me_inner h2:first-child{
+font-size:40px ;
+margin-bottom: 20px;
+}
+.about_me_inner p{
+   line-height: 1.6em;
+    font-size: 20px;
+    color: #757575;
+}
+
+.about_me_footer {
+ display: flex;
+ justify-content: space-between;
+ margin:25px 0;
+ gap:30px;
+}
+.about_me_footer_inner h2{
+    font-size: 18px;
+    color: #474747;
+    margin-top: 8px;
 }
