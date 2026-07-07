@@ -1,0 +1,123 @@
+/* reset css */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Open Sans", sans-serif;
+ ;
+}
+
+/* common css */
+a {
+ text-decoration: none;
+}
+
+.container {
+ max-width: 1240px;
+ margin: 0 auto;
+}
+
+.common-button {
+ background-color: #FD6E0A;
+ padding: 18px 36px;
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+.outline-button {
+ background-color: #ffffff;
+ padding: 18px 40px;
+ color: #FD6E0A;
+ font-size: 20px;
+ font-weight: bold;
+ border: 1px solid #FD6E0A;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+/* nav styling start */
+header {
+ padding-top: 50px;
+ background-color: #FFF8F3;
+}
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ padding: 12px 0;
+}
+
+nav ul {
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
+ list-style-type: none;
+ align-items: center;
+}
+
+nav ul li a {
+ text-decoration: none;
+ font-size: 20px;
+ color: #474747;
+}
+
+nav .logo {
+ font-weight: bolder;
+ font-size: 50px;
+}
+
+.logo-r {
+ color: #FD6E0A;
+}
+
+/* nav styling end */
+
+
+/* styling hero */
+.hero_patent {
+ background-color: #FFF8F3;
+}
+
+.hero {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.hero_left p:first-child {
+ font-size: 40px;
+ font-weight: 600;
+ color: #474747;
+}
+
+.hero h2 {
+ line-height: 1.5em;
+ font-size: 80px;
+ font-weight: bold;
+ color: #181818;
+}
+
+.hero_left .hero_text {
+ line-height: 1.5em;
+ font-size: 20px;
+ color: #757575;
+ margin-bottom: 30px;
+}
+
+.hero_left_button {
+ display: flex;
+ gap: 20px;
+}
+.hero_left{
+ position: relative;
+}
+.hero_left .left_wattermark {
+position: absolute;
+left: 0;
+bottom: 0;
+transform: ;
+}
