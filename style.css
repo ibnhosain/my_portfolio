@@ -1,4 +1,6 @@
-/* reset css */
+/* ===============
+reset css
+================ */
 * {
  margin: 0;
  padding: 0;
@@ -7,7 +9,9 @@
  ;
 }
 
-/* common css */
+/* ==================
+common css
+================== */
 a {
  text-decoration: none;
 }
@@ -30,6 +34,12 @@ img {
  border: none;
  cursor: pointer;
  border-radius: 5px;
+ transition: all 0.3s ease;
+}
+
+.common-button:hover {
+ transform: translateY(-3px);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
 
 .outline-button {
@@ -41,9 +51,17 @@ img {
  border: 1px solid #FD6E0A;
  cursor: pointer;
  border-radius: 5px;
+ transition: all 0.3s ease;
 }
 
-/* nav styling start */
+.outline-button:hover {
+ background: #FD6E0A;
+ color: #fff;
+}
+
+/* ===================
+nav styling start
+ ====================*/
 header {
  padding-top: 50px;
  background-color: #FFF8F3;
@@ -78,10 +96,16 @@ nav .logo {
  color: #FD6E0A;
 }
 
-/* nav styling end */
+/* 
+================
+nav styling end 
+=================
+*/
 
 
-/* styling hero */
+/* =================
+styling hero 
+================*/
 .hero_patent {
  background-color: #FFF8F3;
 }
@@ -138,7 +162,13 @@ nav .logo {
  background-image: url(./images/header_bg.png);
 }
 
-/* About me section Styling */
+/* =================
+styling hero  end
+================*/
+
+/* ========================
+About me section Styling 
+=======================*/
 
 .about_me_section {
  margin: 80px 0;
@@ -175,4 +205,176 @@ nav .logo {
  font-size: 18px;
  color: #474747;
  margin-top: 8px;
+}
+
+/* ========================
+About me section Styling  end
+=======================*/
+/* ========================
+What I do section Styling 
+=======================*/
+.What_I_do_section {
+ margin-bottom: 100px;
+}
+
+.What_I_d_parent {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.What_I_d_parent h2 {
+ font-size: 40px;
+ margin-bottom: 20px;
+ font-weight: bold;
+}
+
+.What_I_d_parent p {
+ line-height: 1.6em;
+ font-size: 20px;
+ color: #757575;
+ margin-bottom: 40px;
+}
+
+.what_I_do_inner {
+ display: flex;
+ justify-content: space-between;
+ gap: 30px;
+}
+
+.what_I_do_card {
+ background-color: #FFFFFF;
+ padding: 25px;
+ box-shadow: 20px 20px 40px #cdcdcd;
+ border: 2px solid #FFFFFF;
+ border-radius: 5px;
+}
+
+.what_I_do_card h3 {
+ font-size: 20px;
+ color: #474747;
+ margin: 10px 0;
+}
+
+.what_I_do_card p {
+ line-height: 1.5em;
+ font-size: 18px;
+ color: #757575;
+ text-align: left;
+}
+
+/* ========================
+Resume summary section Styling 
+=======================*/
+.resume_summary {
+ margin: 40px 0;
+}
+
+.resume_summary_title {
+ font-size: 40px;
+ margin: 40px 0;
+ font-weight: bold;
+ text-align: center;
+}
+
+.resume_summry_inner {
+ display: flex;
+ justify-content: space-between;
+ gap: 30px;
+}
+
+.resume_summary_card h3 {
+ font-size: 30px;
+ margin-bottom: 20px;
+ font-weight: bold;
+}
+
+.resume_summary_card h4 {
+ font-size: 20px;
+ color: #474747;
+ margin: 20px 0;
+}
+
+.resume_summary_card p {
+ line-height: 1.5em;
+ font-size: 18px;
+ color: #757575;
+ text-align: left;
+ margin: 10px 0;
+}
+
+.resume_summary_button {
+ width: 20%;
+ margin: 20px auto;
+}
+
+/* ========================
+footer_section Styling 
+=======================*/
+.footer_section {
+ background-color: #FFF8F3;
+ padding: 50px 0px 100px 0px;
+}
+
+.footer_section_inner {
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.footer_menu_left h2 {
+ font-size: 30px;
+ margin-bottom: 20px;
+ font-weight: bold;
+}
+
+.footer_menu_left p {
+ line-height: 1.7em;
+ font-size: 18px;
+ color: #757575;
+ text-align: left;
+ margin: 15px 0;
+ width: 615px;
+}
+
+.menu_icon {
+ display: flex;
+ justify-content: flex-start;
+ gap: 25px;
+}
+
+.footer_form_right {
+ width: 40%;
+}
+
+.footer_form_right h2 {
+ font-size: 30px;
+ margin-bottom: 20px;
+ font-weight: bold;
+}
+
+.footer_form_right p {
+ line-height: 1.7em;
+ font-size: 18px;
+ color: #757575;
+ text-align: left;
+ margin: 15px 0;
+}
+
+.footer_form_right form input:not([type="submit"]) {
+ width: 100%;
+ padding: 16px 20px;
+ font-size: 16px;
+ border: none;
+ outline: none;
+}
+
+.footer_form_right form textarea {
+ width: 100%;
+ padding: 16px 20px;
+ font-size: 16px;
+ border: none;
+ outline: none;
+ resize: none;
+ box-sizing: border-box;
 }
